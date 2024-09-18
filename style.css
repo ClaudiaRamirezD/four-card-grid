@@ -126,7 +126,12 @@ header > p {
 .layout-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.375rem
+  gap: 1.375rem;
+  grid-template-areas: 
+    "teal"
+    "red"
+    "yellow"
+    "blue";
   
 }
 
